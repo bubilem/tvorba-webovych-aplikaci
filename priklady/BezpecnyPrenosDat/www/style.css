@@ -1,0 +1,38 @@
+table{
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+table caption{
+    text-align: left;
+}
+th, td{
+    border: #ccc 1px solid;
+    text-align: left;
+    padding: 2px;
+}
+
+body > ol{
+    font-size: 1.2em;
+}
+ul > li{
+    font-size: .8em;
+}
+ul > li.result{
+    font-weight: bold;
+}
+
+a.btn{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #fff;
+    background: #888;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    display: inline-block; 
+    transition: background-color .3s linear;
+}
+
+a.btn:hover{
+    background: #666;    
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <base href="" />
+    <title>HTML Web</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jednoduchá webová stránka, která vznikla za účelem demonstrace jazyka HTML."
+    />
+    <meta name="keywords" content="výuka, html" />
+    <meta name="author" content="Michal Bubílek" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta property="og:title" content="HTML Web" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://" />
+    <meta property="og:image" content="img/html.jpg" />
+    <meta
+      property="og:description"
+      content="Jednoduchá webová stránka, která vznikla za účelem demonstrace jazyka HTML."
+    />
+    <meta property="og:site_name" content="Výuka webů" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <!-- HTML komentář -->
+    <header>
+      <h1>Hlavní nadpis stránky</h1>
+      <p>Text pod nadpisem</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Položka menu</a></li>
+        <li><a href="index.html">Druhá položka</a></li>
+        <li><a href="index.html">Třetí položka</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>
+        Toto je text v <strong><em>prvním</em> odstavci</strong> této stránky.
+        Toto je text v prvním odstavci této stránky.
+      </p>
+      <p>
+        Toto je text v druhém odstavci této stránky. Toto je text v druhém
+        odstavci této stránky.
+      </p>
+      <p>Můžeme psát i vzorce: <b>E</b> = m&times;<i>c</i><sup>2</sup></p>
+      <pre>
+                Text, ve kterém se
+                neignorují mezery    a 
+                enter.
+            </pre
+      >
+      <table>
+        <tr>
+          <th>Název prvku</th>
+          <th>Popis prvku</th>
+        </tr>
+        <tr>
+          <td>První prvek</td>
+          <td>Popis prvního prvku</td>
+        </tr>
+        <tr>
+          <td>Druhý prvek</td>
+          <td>Popis druhého prvku</td>
+        </tr>
+      </table>
+
+      <ul>
+        <li>První položka odrážkového seznamu</li>
+        <li>Druhá položka odrážkového seznamu</li>
+        <li>Třetí položka odrážkového seznamu</li>
+      </ul>
+      <figure>
+        <svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+          <circle
+            cx="100"
+            cy="50"
+            r="40"
+            stroke="rgba(255,0,0,1)"
+            stroke-width="2"
+            fill="rgba(255,0,0,.5)"
+          />
+          <circle
+            cx="70"
+            cy="90"
+            r="40"
+            stroke="rgba(0,255,0,1)"
+            stroke-width="2"
+            fill="rgba(0,255,0,.5)"
+          />
+          <circle
+            cx="130"
+            cy="90"
+            r="40"
+            stroke="rgba(0,0,255,1)"
+            stroke-width="2"
+            fill="rgba(0,0,255,.5)"
+          />
+        </svg>
+        <figcaption>Obr.1 Vektorový SVG obrázek.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/favicon-32x32.png" alt="Země" />
+        <figcaption>Obr.2 Rastrový PNG obrázek.</figcaption>
+      </figure>
+      <form action="form.php" method="POST">
+        <fieldset>
+          <legend>Login</legend>
+          <label for="name">Jméno:</label>
+          <input id="name" type="text" name="username" value="" />
+          <label for="pass">Heslo:</label>
+          <input id="pass" type="password" name="password" value="" />
+          <select id="lang" name="language">
+            <option value="cze">Čeština</option>
+            <option value="eng">English</option>
+            <option value="ger">Deutsh</option>
+          </select>
+          <input type="submit" name="submit" value="Přihlásit" />
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>Napsal: John Doe</p>
+      <p>
+        Kontakt: <a href="mailto:john.doe@example.com">john.doe@example.com</a>.
+      </p>
+      <p>License: CC0</p>
+    </footer>
+  </body>
+</html>
