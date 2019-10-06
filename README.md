@@ -58,4 +58,4 @@ OOP, Web, PHP, SQL, HTML, CSS, praktické programování
 
 ## Licence
 
-MIT License for documents, source code and all other files in this repository.
+[MIT licence](LICENSE) pro dokumenty, zdrojové kódy a všechny další soubory v tomto repositáři.
